@@ -5,6 +5,11 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+/* 
+.main a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+} */
 
 .post_comment_card {
     width: 80%;

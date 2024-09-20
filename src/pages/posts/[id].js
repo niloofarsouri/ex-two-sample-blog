@@ -23,17 +23,19 @@ function Post({ id }) {
     return (
         <>
 
-            <Link href={`/posts/${route.query.id}/comments`}>
 
-                <div className={style.main}>
+
+            <div className={style.main}>
+                <Link href={`/posts/${route.query.id}/comments`}>
                     <div className={style.post_card}>
                         <h2>{post.userId}</h2>
                         <h4>{post.title}</h4>
                         <p>{post.body}</p>
                     </div>
-                </div>
+                </Link>
+            </div>
 
-            </Link>
+
 
         </>
     )

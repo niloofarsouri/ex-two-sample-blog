@@ -8,7 +8,7 @@ function AboutUs() {
     return (
         <>
 
-            <h1>about us</h1>
+            <h1 style={{ textAlign: 'center', margin: '1rem' }}>about us</h1>
 
         </>
     )

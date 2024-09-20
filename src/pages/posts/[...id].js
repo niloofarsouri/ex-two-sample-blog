@@ -34,7 +34,7 @@ function Comment() {
 
     return (
         <>
-            <h1>comments</h1>
+            <h1 style={{ textAlign: 'center', marginTop: '1rem' }}>comments</h1>
 
             {
                 comments.map(item => {

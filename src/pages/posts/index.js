@@ -1,6 +1,5 @@
 import Card from '@/components/card';
-import styles from '@/pages/posts/index.module.css'
-import Link from 'next/link';
+import styles from '@/pages/posts/index.module.css';
 import { useState, useEffect } from 'react';
 
 
