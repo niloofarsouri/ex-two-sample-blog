@@ -1,0 +1,16 @@
+.posts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main_posts h1 {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

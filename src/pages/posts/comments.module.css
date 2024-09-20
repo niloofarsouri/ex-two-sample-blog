@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.post_comment_card {
+    width: 80%;
+    background-color: darkblue;
+    color: white;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.post_comment_card h2{
+    margin: 1rem;
+}
+
+.post_comment_card h4{
+    margin: 1rem;
+}
+
+.post_comment_card p{
+    margin: 1rem;
+}

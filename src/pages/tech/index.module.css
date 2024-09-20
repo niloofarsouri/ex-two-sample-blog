@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.post_card {
+    width: 80%;
+    /* width: 300px; */
+    height: 120px;
+    background-color: darkblue;
+    color: white;
+    padding: 1rem;
+    text-align: justify;
+}
