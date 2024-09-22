@@ -1,5 +1,6 @@
 import Card from '@/components/card';
 import styles from '@/pages/posts/index.module.css';
+import Head from 'next/head';
 import { useState, useEffect } from 'react';
 
 
@@ -19,6 +20,9 @@ function Posts() {
 
     return (
         <>
+            <Head>
+                <title>you can see all of the posts</title>
+            </Head>
             <div className={styles.main_posts}>
                 <h1>See All Of The Posts</h1>
 

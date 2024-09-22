@@ -1,4 +1,5 @@
 import style from '@/pages/posts/id.module.css'
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
@@ -23,11 +24,13 @@ function Post({ id }) {
     return (
         <>
 
-
+            <Head>
+                <title>Post</title>
+            </Head>
 
             <div className={style.main}>
                 <Link href={`/posts/${route.query.id}/comments`}>
-                    <div className={style.post_card}>
+                    <div className={style.post_card} key={post.id}>
                         <h2>{post.userId}</h2>
                         <h4>{post.title}</h4>
                         <p>{post.body}</p>

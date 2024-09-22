@@ -1,6 +1,7 @@
 import style from '@/pages/posts/comments.module.css'
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import Head from 'next/head';
 
 
 
@@ -34,6 +35,10 @@ function Comment() {
 
     return (
         <>
+            <Head>
+                <title>Comments</title>
+            </Head>
+
             <h1 style={{ textAlign: 'center', marginTop: '1rem' }}>comments</h1>
 
             {
